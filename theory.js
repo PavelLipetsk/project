@@ -1,20 +1,23 @@
-"use strict";
+const str = "teXt";
+// console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str);
 
-let num = 50;
-// while (num <= 55) {
-//     console.log(num);
-//     num++
-// }
-// do {
-//     console.log(num);
-//     num++
-// } while (num < 55);
+const fruit = "Some fruit";
 
-for (let i = 1; i < 10; i++) {
-    if (i === 6) {
-        // break;
-        continue;
-    }
-    console.log(i);
-    
-}
+console.log(fruit.indexOf("q"));
+
+const logg = "Hello world";
+
+
+// console.log(logg.slice(6));
+
+// console.log(logg.substring(6));
+
+console.log(logg.substring(6, 5));
+
+const num = 12.2;
+console.log(Math.round(num));
+
+const test = "12.2px";
+console.log(parseInt(test));
